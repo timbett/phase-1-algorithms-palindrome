@@ -1,6 +1,17 @@
-function isPalindrome(word) {
+function isPalindrome(dad) {
   // Write your algorithm here
+  if (dad === dad && dad.split('').reverse().join('') === dad) {
+
+    return true;
+  } else {
+
+    return false
+  }
 }
+
+let myVal = isPalindrome('abba')
+console.log(myVal)
+
 
 /* 
   Add your pseudocode here
